@@ -1,0 +1,7 @@
+
+Invoking autoreconf in build directory: /home/valhalla/Documents/projects/UFMS/PROG2 - 2024-1/lista_de_exercicio/vitoria_equipes/
+
+sh -c "autoreconf -i" 
+autoreconf: error: 'configure.ac' is required
+
+Configuration failed with error

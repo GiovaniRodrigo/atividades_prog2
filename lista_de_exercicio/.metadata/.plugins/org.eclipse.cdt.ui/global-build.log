@@ -1,0 +1,16 @@
+21:43:45 **** Incremental Build of configuration Debug for project vitoria_equipes ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c:10:28: error: array type has incomplete element type ‘struct torneio’
+   10 | void ordena(struct torneio equipe[MAX], int n){
+      |                            ^~~~~~
+../main.c:10:20: warning: ‘struct torneio’ declared inside parameter list will not be visible outside of this definition or declaration
+   10 | void ordena(struct torneio equipe[MAX], int n){
+      |                    ^~~~~~~
+../main.c:15:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+   15 | void main () {
+      |      ^~~~
+make: *** [subdir.mk:20: main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.

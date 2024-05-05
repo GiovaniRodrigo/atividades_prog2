@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define MAX 100
+
+struct torneio {
+	double pontuacao;
+	char nome[50];
+};
+
+void ordena(struct torneio equipe[MAX], int n){
+
+}
+
+void main () {
+	print
+}

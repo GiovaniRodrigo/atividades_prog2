@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define MAX 100
+
+struct torneio {
+	double pontuacao;
+	char nome[50];
+};
+
+void ordena(struct torneio equipe[MAX], int n){
+
+}
+
+void main () {
+	struct torneio equipes[MAX], aux;
+
+	printf("Inserindo dados aleatórios\n");
+
+	for (int i = 0; i < MAX; i++){
+		for (int j )
+		equipes[i].nome = nome_aleatorio();
+		equipes[i].pontuacao = rand() % 4000 / 1.5;
+	}
+}
